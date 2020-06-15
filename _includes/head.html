@@ -4,11 +4,11 @@
 <head>
   {% include force-https.html %}
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" ="IE=edge">
-  <meta name="viewport" ="width=device-width, initial-scale=1">
-  <meta name="description" ="{{site.description}}">
-  <meta name="author" ="{{site.author}}">
-  <meta name="keywords" ="{{site.keywords}}">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{site.description}}">
+  <meta name="author" content="{{site.author}}">
+  <meta name="keywords" content="{{site.keywords}}">
   <link rel="canonical" href="{{page.url | replace:'index.html','' | prepend: site.baseurl}}">
   <title>{% if page.title %}{{page.title}} | {% endif %} {{site.title}}</title>
 
@@ -37,7 +37,7 @@
   {% endif %}
 
   {% if page.url == "/404.html" | prepend: {{site.baseurl}} %}
-    <meta http-equiv="refresh" ="20; url={{site.baseurl}}/">
+    <meta http-equiv="refresh" content="20; url={{site.baseurl}}/">
   {% endif %}
 
   {% include web-app.html %}
