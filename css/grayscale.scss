@@ -301,6 +301,27 @@ a {
     background-color: $secondary-color;
 }
 
+.contact-details{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#pic{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.td1{
+    font-size: 20px;
+    padding: 15px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* Added in { Personal } */
 ul.social-buttons li a {
     display: block;
