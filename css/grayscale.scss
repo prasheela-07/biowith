@@ -178,21 +178,21 @@ a {
     padding: 100px 0;
     text-align: center;
     color: $intro-text-color;
-    background: linear-gradient(-45deg, #00adb5, #00adb5,  #222831, #222831);
-    animation: gradient 15s ease infinite;
-    @keyframes gradient {
-        0% {
-            background-position: 0% 50%;
-        }
-        50% {
-            background-position: 100% 50%;
-        }
-        100% {
-            background-position: 0% 50%;
-        }
-    }
-    overflow: hidden;
-    // background-color: $header-background-color;
+    // background: linear-gradient(-45deg, #222831, #222831,  #222831, #222831);
+    // animation: gradient 15s ease infinite;
+    // @keyframes gradient {
+    //     0% {
+    //         background-position: 0% 50%;
+    //     }
+    //     50% {
+    //         background-position: 100% 50%;
+    //     }
+    //     100% {
+    //         background-position: 0% 50%;
+    //     }
+    // }
+    // overflow: hidden;
+    background-color: $header-background-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
