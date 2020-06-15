@@ -277,7 +277,7 @@ function addTohistory() {
 {% endif %}
 
 <script>
-
+window.addEventListener('load', function (){
 var c = document.getElementById("canvas");
 var ctx = c.getContext("2d");
 
@@ -447,6 +447,7 @@ function collisionDetection(b){
 			}
 		}
 	}
+}
 }
 </script>
 <!-- Javascript End -->
