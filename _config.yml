@@ -36,16 +36,16 @@ authors:
     puneeth:
       short_name:     puneeth
       name:           Neerukonda Puneeth
-      title: "{ John Smith }"
+      title: "{ Puneeth }"
       description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
       keywords: "smith, jones, personal, jekyll, theme"
       favicon: "/img/favicon.ico"
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "DevsKrate"
+title: "{ DevsKrate }"
+description: "Blog and website of DevsKrate, blogging mainly for tech people."
+keywords: "portfolio, tech, DevsKrate, resume"
 favicon: "/img/favicon.ico"
 
 ################
