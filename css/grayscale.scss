@@ -88,12 +88,14 @@ a {
     overflow-y: auto;
 
     .navbar-toggle {
-        padding: 4px 6px;
-        font-size: 16px;
-        color: $navbar-color;
+        padding: 4px 6px !important;
+        font-size: 16px !important;
+        color: $navbar-color !important;
+        margin-top: unset !important;
+        margin-bottom: unset !important;
         &:focus,
         &:active {
-            outline: none;
+            outline: none !important;
         }
     }
     .navbar-brand {
