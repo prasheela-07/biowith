@@ -202,6 +202,7 @@ a {
         vertical-align: middle;
         .brand-heading {
             font-size: 40px;
+            margin-bottom: 10px;
         }
         .intro-text {
             font-size: 16px;
@@ -224,6 +225,10 @@ a {
     }
 }
 
+ul{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 
 
 @-webkit-keyframes pulse {
