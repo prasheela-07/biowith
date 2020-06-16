@@ -174,7 +174,7 @@ a {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 100px 0;
     text-align: center;
     color: $intro-text-color;
@@ -202,6 +202,7 @@ a {
         vertical-align: middle;
         .brand-heading {
             font-size: 40px;
+            margin-bottom: 10px;
         }
         .intro-text {
             font-size: 16px;
@@ -224,6 +225,10 @@ a {
     }
 }
 
+ul{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 
 
 @-webkit-keyframes pulse {
@@ -349,6 +354,19 @@ a {
 a{
     text-decoration: none;
     color: white;
+}
+
+@media(min-width:768px) {
+
+    #pic{
+        width: 180px;
+        height: 180px;
+    }
+    .td1{
+        font-size: 25px;
+        padding: 23px;
+    }
+
 }
 
 /* Added in { Personal } */
