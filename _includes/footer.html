@@ -1,5 +1,18 @@
 <!-- Footer Start -->
-
+<style>
+    #icon-up{
+        display: inline;
+        position: absolute; 
+        right: 5%;
+        font-size: 15px;
+    }
+    @media(min-width:768px) {
+        #icon-up{
+            font-size: 30px;
+            
+        }
+    }
+</style>
 <footer>
 
     {% include social-buttons.html %}
@@ -9,10 +22,12 @@
     <div class="container text-center">
         <p>Copyright &copy; {{ site.author }} {{ site.time | date: "%Y" }}</p>
         {% if site.keybase-in-footer %}
-        <p style="font-size: 16px;"><a href="https://keybase.io/{{site.keybase-username}}" target="_blank"><i
+        <p style="font-size: 16px;display: inline;"><a href="https://keybase.io/{{site.keybase-username}}" target="_blank"><i
                 class="fa fa-key"></i> {{site.keybase-username}} on Keybase</a></p>
         {% endif %}
+        <a href="#page-top"><i id = "icon-up" class="fa fa-chevron-up" aria-hidden="true"></i></a>
     </div>
+    
 </footer>
 
 <p></p>
