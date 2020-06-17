@@ -163,7 +163,7 @@ classes:
   - image: "/img/timeline/baracktocat.jpg"
     date: "August 2014 - March 2016"
     description: "Intermediate"
-    - image: "/img/timeline/baracktocat.jpg"
+  - image: "/img/timeline/baracktocat.jpg"
     date: "June 2013 - March 2014"
     description: "S.S.C"
 
