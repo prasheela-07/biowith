@@ -156,6 +156,18 @@ events:
 
 timeline-img: "/img/timeline/default.png"
 
+classes:
+  - image: "/img/timeline/spidertocat.png"
+    date: "August 2016 - Today"
+    description: "Engineering"
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "August 2014 - March 2016"
+    description: "Intermediate"
+    - image: "/img/timeline/baracktocat.jpg"
+    date: "June 2013 - March 2014"
+    description: "S.S.C"
+
+
 ###########
 # Contact #
 ###########
