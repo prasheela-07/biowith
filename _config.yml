@@ -192,6 +192,8 @@ social:
     url: "https://www.linkedin.com/"
   - title: "instagram"
     url: "https://instagram.com"
+  - title: "hackerrank"
+    url: "https://hackerrank.com"
 
 ############
 # 404 page #
@@ -215,7 +217,8 @@ keybase-in-footer: True
 
 pages_list:
   About: 'about'
-  Education: 'latest-post'
+  Blog: 'latest-post'
+  Education: 'education'
   Experience: 'timeline'
   Projects: 'projects'
   Contact: 'contact'

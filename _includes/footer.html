@@ -1,31 +1,42 @@
 <!-- Footer Start -->
 <style>
     #icon-up{
-        display: inline;
-        position: absolute; 
-        right: 5%;
+        position: absolute;
+        top: -15px;
         font-size: 15px;
+        margin-bottom: 15px;
+        background-color: white;
+        color: black;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 100%;
+        left: 48.5%;
     }
     @media(min-width:768px) {
         #icon-up{
-            font-size: 30px;
-            
+            top: -20px;
+            font-size: 25px;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
         }
+    }
+
+    #icon-up:hover{
+        color: white;
+        background-color: black;
     }
 </style>
 <footer>
-
-    {% include social-buttons.html %}
-
-    <p><br><br></p>
-
+    <a href="#page-top" class="page-scroll"><i id = "icon-up" class="fa fa-chevron-up" aria-hidden="true"></i></a>
     <div class="container text-center">
+        
         <p>Copyright &copy; {{ site.author }} {{ site.time | date: "%Y" }}</p>
         {% if site.keybase-in-footer %}
-        <p style="font-size: 16px;display: inline;"><a href="https://keybase.io/{{site.keybase-username}}" target="_blank"><i
+        <p style="font-size: 16px;"><a href="https://keybase.io/{{site.keybase-username}}" target="_blank"><i
                 class="fa fa-key"></i> {{site.keybase-username}} on Keybase</a></p>
         {% endif %}
-        <a href="#page-top"><i id = "icon-up" class="fa fa-chevron-up" aria-hidden="true"></i></a>
     </div>
     
 </footer>
