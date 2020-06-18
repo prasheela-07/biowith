@@ -10,7 +10,7 @@
       <table class="contact-details">
         <tr>
             <td class="td1"><img id="pic" src="/img/author.png" alt="profile_pic"></td>
-            <td class="td1">{{ site.author }}<br>
+            <td class="td1"><b style="font-size: larger;">{{ site.author }}</b><br>
               {% if site.email %}
               {% if site.email contains '@' %}
                 {% assign newemail = site.email | split: '@' %}
