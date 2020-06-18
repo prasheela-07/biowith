@@ -121,6 +121,7 @@
 
 .timeline .timeline-heading h4 {
     margin-top: 0;
+    margin-bottom: 18px;
     color: inherit;
 }
 
@@ -139,7 +140,7 @@
     }
 
     .timeline>li {
-        margin-bottom: 100px;
+        margin-bottom: 60px;
         min-height: 100px;
     }
 
@@ -192,10 +193,11 @@
     }
 
     .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px;
+        width: 130px;
+        height: 130px;
+        margin-left: -65px;
     }
+
 
     .img-me {
         width: 200px;
@@ -228,11 +230,7 @@
         padding: 0 20px 20px 100px;
     }
 
-    .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
-        margin-left: -85px;
-    }
+    
 
     .timeline>li .img-me {
         width: 200px;
@@ -250,4 +248,8 @@
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
+}
+
+#company{
+    margin-bottom: 15px;
 }
