@@ -9,7 +9,7 @@
   
         <ul class="timeline">
   
-          {% for class in site.classes %}
+          {% for event in site.classes %}
             {% assign loopindex = forloop.index | modulo: 2 %}
             {% capture class %}
             {% if loopindex == 0 %}
@@ -19,14 +19,14 @@
   
             <li class="{{ class }}">
               <div class="timeline-image">
-                <img class="img-circle img-responsive" src="{{site.baseurl}}{{ class.image }}" alt="">
+                <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>{{ class.date }}</h4>
+                  <h4>{{ event.date }}</h4>
                 </div>
                 <div class="timeline-body">
-                  {{ class.description | markdownify }}
+                  {{ event.description | markdownify }}
                 </div>
               </div>
             </li>
