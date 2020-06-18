@@ -9,7 +9,7 @@
   
         <ul class="timeline">
   
-          {% for event in site.classes %}
+          {% for event in site.education %}
             {% assign loopindex = forloop.index | modulo: 2 %}
             {% capture class %}
             {% if loopindex == 0 %}
@@ -26,7 +26,9 @@
                   <h4>{{ event.date }}</h4>
                 </div>
                 <div class="timeline-body">
-                  {{ event.description | markdownify }}
+                  {{ event.course | markdownify }}
+                  {{ event.branch | markdownify }}
+                  {{ event.score }}
                 </div>
               </div>
             </li>
