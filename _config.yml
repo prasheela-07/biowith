@@ -145,27 +145,36 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
+  - image: "/img/timeline/baracktocat.jpg"
+    company: "DevsKrate"
     date: "September 2013 - Today"
     description: "Saving the neighborhood!"
   - image: "/img/timeline/baracktocat.jpg"
+    company: "DevsKrate"
     date: "September 2007 - August 2013"
-    description: "Started coding"
+    description: "Saving the neighborhood!"
 
 # First image of the Timeline
 
 timeline-img: "/img/timeline/default.png"
 
-classes:
-  - image: "/img/timeline/spidertocat.png"
-    date: "August 2016 - Today"
-    description: "Engineering"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "August 2014 - March 2016"
-    description: "Intermediate"
-  - image: "/img/timeline/baracktocat.jpg"
+education:
+  - image: "/img/timeline/school.jpg"
     date: "June 2013 - March 2014"
-    description: "S.S.C"
+    course: "Schooling"
+    branch: "S.S.C"
+    score: "8.5"
+  - image: "/img/timeline/inter.jpg"
+    date: "August 2014 - March 2016"
+    course: "Intermediate"
+    branch: "MPC"
+    score: "88.5"
+  - image: "/img/timeline/graduation.jpg"
+    date: "August 2016 - Today"
+    course: "Bachelor of Technology"
+    branch: "Computer Science"
+    score: "8.85"
+  
 
 
 ###########
@@ -173,7 +182,7 @@ classes:
 ###########
 
 email: "your@email.here"
-phoneno: "+91 00000 00000"
+phoneno: "+91 12345 67890"
 telegram: "JohnSmith"
 location: "India"
 
@@ -204,7 +213,7 @@ social:
     url: "https://www.linkedin.com/"
   - title: "instagram"
     url: "https://instagram.com"
-  - title: "hackerrank"
+  - title: "code"
     url: "https://hackerrank.com"
 
 ############
@@ -229,7 +238,7 @@ keybase-in-footer: True
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  #Blog: 'latest-post'
   Education: 'education'
   Experience: 'timeline'
   Projects: 'projects'
